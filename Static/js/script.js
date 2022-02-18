@@ -295,9 +295,9 @@ function showResult(winner) {
             document.querySelector('#draw').textContent = blackjackGame['draw'];
             message = 'You Drew!';
             messageColor = 'black';
-        }
 
         document.querySelector('#blackjack-result').textContent = message;
         document.querySelector('#blackjack-result').style.color = messageColor;
+        }
     }
 }
